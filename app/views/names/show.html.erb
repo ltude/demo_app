@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Db entity:</strong>
+  <%= @name.db_entity %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @name.type %>
+</p>
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>
